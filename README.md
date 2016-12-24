@@ -1,17 +1,13 @@
 # Installing the vimrc manually:
-1. Clone the repository:
+* Clone the repository:
 ```
 git clone https://github.com/divyam3897/vimrc.git
 ```
-2. Fetch submodules:
-```
-git submodule init && git submodule update
-```
-3. Add the following to your existing .vimrc
+* Add the following to your existing .vimrc
 ```
 source ~/pathToVimrc/.vimrc
 ```
-4. Open vim and enter the following in the Normal/Command mode for installing the plugins using vundle.
+* Open vim and enter the following in the Normal/Command mode for installing the plugins using vundle.
 ```
 :PluginInstall
 ```
