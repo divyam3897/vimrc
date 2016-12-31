@@ -9,6 +9,11 @@ Plugin 'tpope/vim-fugitive.git'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'raimondi/delimitmate'
+Plugin 'mileszs/ack.vim'
+Plugin 'thinca/vim-quickrun.git'
+Plugin 'vim-syntastic/syntastic.git'
+Plugin 'vim-airline/vim-airline-themes.git'
+Plugin 'vim-scripts/closetag.vim.git'
 
 filetype plugin indent on
 syntax enable
@@ -33,10 +38,14 @@ set mouse=a
 let mapleader = ","
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_theme='solarized'
 nnoremap <leader>l :NERDTreeToggle<CR>
+nnoremap <leader>r :QuickRun<CR>
+nnoremap <leader>de :g/^\s*$/d
 nnoremap <leader>s :vsplit<CR>
 nnoremap <leader>t :tabnew<CR>
-nnoremap <leader>w :tabclose<CR>
+nnoremap <leader>c :tabclose<CR>
 nnoremap ; :
 nnoremap <S-tab> :tabprevious<CR>
 nnoremap <tab> :tabnext<CR>
+inoremap <C-S> <C-O>:update<CR>
