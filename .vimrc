@@ -14,10 +14,14 @@ Plugin 'thinca/vim-quickrun.git'
 Plugin 'vim-syntastic/syntastic.git'
 Plugin 'vim-airline/vim-airline-themes.git'
 Plugin 'vim-scripts/closetag.vim.git'
+Plugin 'Valloric/MatchTagAlways.git'
+Plugin 'Yggdroot/indentLine'
 
 filetype plugin indent on
+call vundle#end()
 syntax enable
 set background=dark
+let g:solarized_termcolors= 256
 colorscheme solarized
 set nu
 filetype indent on
@@ -49,3 +53,4 @@ nnoremap ; :
 nnoremap <S-tab> :tabprevious<CR>
 nnoremap <tab> :tabnext<CR>
 inoremap <C-S> <C-O>:update<CR>
+let loaded_matchparen = 1
