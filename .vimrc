@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes.git'
 Plugin 'vim-scripts/closetag.vim.git'
 Plugin 'Valloric/MatchTagAlways.git'
 Plugin 'Yggdroot/indentLine'
+Plugin 'leafgarland/typescript-vim.git'
 
 filetype plugin indent on
 call vundle#end()
