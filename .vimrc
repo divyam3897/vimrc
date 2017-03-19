@@ -1,6 +1,6 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/vimrc/bundle/vundle/
 call vundle#rc()
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'ervandew/supertab.git'
@@ -19,6 +19,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'leafgarland/typescript-vim.git'
 
 filetype plugin indent on
+filetype indent on
 call vundle#end()
 syntax enable
 set background=dark
@@ -32,6 +33,7 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
+set cindent
 set ignorecase
 map <D-A-RIGHT> <C-w>l
 map <D-A-LEFT> <C-w>h
