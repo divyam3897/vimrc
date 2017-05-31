@@ -1,6 +1,6 @@
 set nocompatible
 filetype off
-set rtp+=~/vimrc/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'ervandew/supertab.git'
@@ -17,6 +17,8 @@ Plugin 'vim-scripts/closetag.vim.git'
 Plugin 'Valloric/MatchTagAlways.git'
 Plugin 'Yggdroot/indentLine'
 Plugin 'leafgarland/typescript-vim.git'
+
+:au BufNewFile *.cpp r ~/.vim/template.cpp
 
 filetype plugin indent on
 filetype indent on
