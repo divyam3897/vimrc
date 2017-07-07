@@ -17,6 +17,9 @@ Plugin 'vim-scripts/closetag.vim.git'
 Plugin 'Valloric/MatchTagAlways.git'
 Plugin 'Yggdroot/indentLine'
 Plugin 'leafgarland/typescript-vim.git'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'vim-scripts/google.vim.git'
 
 :au BufNewFile *.cpp r ~/.vim/template.cpp
 
@@ -48,6 +51,7 @@ let mapleader = ","
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='solarized'
+let g:jsx_ext_required = 0
 nnoremap <leader>l :NERDTreeToggle<CR>
 nnoremap <leader>r :QuickRun<CR>
 nnoremap <leader>de :g/^\s*$/d
