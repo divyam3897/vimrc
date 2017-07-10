@@ -20,6 +20,7 @@ Plugin 'leafgarland/typescript-vim.git'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'vim-scripts/google.vim.git'
+Plugin 'fatih/vim-go.git'
 
 :au BufNewFile *.cpp r ~/.vim/template.cpp
 
