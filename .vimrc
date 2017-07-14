@@ -21,6 +21,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'vim-scripts/google.vim.git'
 Plugin 'fatih/vim-go.git'
+Plugin 'wakatime/vim-wakatime.git'
 
 :au BufNewFile *.cpp r ~/.vim/template.cpp
 
