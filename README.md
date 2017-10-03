@@ -1,3 +1,8 @@
+# Installing the vimrc with script:
+* Run the python3 script from the folder where you want the Vimrc to be, it should take care of the rest. Or you could install it manually.
+```
+python3 script.py
+```
 # Installing the vimrc manually:
 * Clone the repository:
 ```
