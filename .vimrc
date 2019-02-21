@@ -1,6 +1,6 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'ervandew/supertab.git'
@@ -20,8 +20,6 @@ Plugin 'leafgarland/typescript-vim.git'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'vim-scripts/google.vim.git'
-Plugin 'fatih/vim-go.git'
-Plugin 'wakatime/vim-wakatime.git'
 
 :au BufNewFile *.cpp r ~/.vim/template.cpp
 
